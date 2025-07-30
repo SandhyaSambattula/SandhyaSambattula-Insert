@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS song (
-    title TEXT,
-    artist TEXT
+    title VARCHAR(255),
+    artist VARCHAA(255)
 );
 INSERT INTO song (title, artist) VALUES ('Imagine', 'John Lennon');
 SELECT * FROM song;
