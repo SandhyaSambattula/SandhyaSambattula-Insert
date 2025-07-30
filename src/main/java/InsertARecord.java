@@ -49,4 +49,9 @@ public class InsertARecord {
 
         return false;
     }
+    public static void main(String[] args) {
+        InsertARecord ir = new InsertARecord();
+        boolean success = ir.problem1();
+        System.out.println("Insert success: " + success);
+    }
 }
